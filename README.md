@@ -1,4 +1,7 @@
 LibraryJS
 =========
 
-A JavaScript Library that will enable importation of other libraries.
+####The library to import other libraries
+
+
+[I'm a relative reference to a repository file](LICENSE)
