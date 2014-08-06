@@ -13,29 +13,12 @@ LibraryJS
 
 
 ```
-import("JQuery")
+library.import("JQuery")
 
 //will import the jquery from code.jquery.com
 
 //we are working on enabling importation of local files
 
 ```
-######These are the supported libaries so far
+######There are 1738 available libraries.
 
-
-
-*   jquery
-*   angular
-*   bootstrap
-*   annyang
-*   chart.js
-*   svg.js
-*   snap.svg
-*   react.js
-*   typeface.js
-*   backbone.js
-*   spine.js
-*   agility.js
-*   stapes.js
-*   progress.js
-*   require.js
