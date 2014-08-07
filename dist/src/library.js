@@ -106,7 +106,7 @@ coffee', 'remotestorage', 'repo.js', 'require-cs', 'require-css', 'require-domre
 
 'yui', 'zclip', 'zepto', 'zeroclipboard', 'zocial', 'zurb-ink', 'zxcvbn'];
 
-var names = ['//cdnjs.cloudflare.com/ajax/libs/6px/0.0.11/6px.min.js', '//cdnjs.cloudflare.com/ajax/libs/6px/0.0.11/6px.min.js', '//cdnjs.cloudflare.com/ajax/libs/AniJS/0.5.0/anijs-min.js', '//cdnjs.cloudflare.com/ajax/libs/AniJS/0.5.0/anijs-
+var src = ['//cdnjs.cloudflare.com/ajax/libs/6px/0.0.11/6px.min.js', '//cdnjs.cloudflare.com/ajax/libs/6px/0.0.11/6px.min.js', '//cdnjs.cloudflare.com/ajax/libs/AniJS/0.5.0/anijs-min.js', '//cdnjs.cloudflare.com/ajax/libs/AniJS/0.5.0/anijs-
 
 min.js', '//cdnjs.cloudflare.com/ajax/libs/Base64/0.3.0/base64.min.js', '//cdnjs.cloudflare.com/ajax/libs/Base64/0.3.0/base64.min.js', '//cdnjs.cloudflare.com/ajax/libs/Chart.js/0.2.0/Chart.min.js', 
 
