@@ -1,10 +1,11 @@
+
 LibraryJS
 =========
 
 ####The library to import other libraries
 
 
-[MIT license](LICENSE "The MIT license")  &nbsp;       [View our site](http://libraryjs.github.io/LibraryJS/ "Our Homepage")
+[MIT license](LICENSE "The MIT license")        [View our site](http://libraryjs.github.io/LibraryJS/ "Our Homepage")
 
 -----
 
@@ -12,13 +13,13 @@ LibraryJS
 
 
 
-```
-library.import("JQuery")
+    library.import("JQuery",function(){
+       // the code goes here
+    });
 
-//will import the jquery from code.jquery.com
+    //also you can import an array of libraries with
 
-//we are working on enabling importation of local files
-
-```
-######There are 1738 available libraries.
-
+    library.import(["jquery","angular","bootstrap"],function(){
+       // the code goes here
+    });
+######There are 904 available libraries.
