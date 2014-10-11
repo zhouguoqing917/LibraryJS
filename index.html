@@ -248,28 +248,32 @@ color: #999;
      
         <script type="text/javascript" src="javascripts/bootstrap.min.js"></script>
 	<script type="text/javascript" src="javascript/jquery.min.js"></script>
-
+	<script type="text/javascript" src="http://code.jquery.com/ui/1.11.1/jquery-ui.min.js"></script>
 
 
         
         <!-- JavaScript jQuery code from Bootply.com editor  -->
         
         <script type="text/javascript">
-      
+      //the commented areas are for without jQuery ui
             $('#download').hover(function(){
-                $('#background').removeClass('norm');
-                $('#background').addClass('download');
+            	$( "#background" ).switchClass( "norm", "download", 1000 );
+                //$('#background').removeClass('norm');
+               // $('#background').addClass('download');
             },function(){
-                $('#background').removeClass('download');
-                $('#background').addClass('norm');
+            	$( "#background" ).switchClass( "download", "norm", 1000 );
+                //$('#background').removeClass('download');
+                //$('#background').addClass('norm');
             
             });    
             $('#contribute').hover(function(){
-                $('#background').removeClass('norm');
-                $('#background').addClass('contribute');
+            	$( "#background" ).switchClass( "norm", "contribute", 1000 );
+                //$('#background').removeClass('norm');
+                //$('#background').addClass('contribute');
             },function(){
-                $('#background').removeClass('contribute');
-                $('#background').addClass('norm');
+            	$( "#background" ).switchClass( "contribute", "norm", 1000 );
+                //$('#background').removeClass('contribute');
+                //$('#background').addClass('norm');
             });
         
         </script>
