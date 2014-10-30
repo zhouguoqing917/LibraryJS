@@ -1,3 +1,11 @@
+/*!
+ * libraryJS JavaScript Library version 1.0.0x
+ *
+ * Copyright 2014, Jake Drew
+ * Licensed under the MIT license.
+ *
+ *
+ */
 
 function library(window){
     this.Version = '1.0.0';
